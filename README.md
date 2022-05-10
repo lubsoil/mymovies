@@ -1,4 +1,5 @@
 # My Movies
+created by Emil Andrzejak
 
 ## How to launch project in dev mode
 1. Download the project.
