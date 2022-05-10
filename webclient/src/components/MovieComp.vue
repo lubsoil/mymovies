@@ -136,14 +136,14 @@ export default {
       if (!result) {
         return
       }
-
+      let data = {Name: this.movietitle, Year: parseInt(this.movieyear)};
+      if(this.movieyear == null){
+        data = {Name: this.movietitle}
+      }
       axios({
         method: 'post',
         url: 'http://localhost:8080/api/MovieItems/',
-        data: {
-          Name: this.movietitle,
-          Year: parseInt(this.movieyear)
-        }
+        data: data
       })
       .then(response => (this.other = response.data)).catch(error => {
           console.log(error)

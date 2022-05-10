@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qpqJcEubORro0zChAw+wq5Cr9ppPmHcU1UqokbbQaPy8trasbk8k3a6oVD224gFtaUK+7VzyNi7M/zQNp1vQgw==",
+  "dgSpecHash": "WJRzznj5wVpC0QNSS8W+ijGnW0bcOMSOvjqUbUGZJfyK0W2MFr3I2o1ldDHYlU1muhm8REBoLv2GHdpZegWAng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emil0\\source\\repos\\MyMoviesAPI\\MyMovies\\MyMovies.csproj",
+  "projectFilePath": "C:\\Users\\emil0\\Documents\\GitHub\\mymovies\\MyMoviesAPI\\MyMovies\\MyMovies.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emil0\\.nuget\\packages\\microsoft.aspnet.cors\\5.2.8\\microsoft.aspnet.cors.5.2.8.nupkg.sha512",
     "C:\\Users\\emil0\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.8\\microsoft.aspnet.webapi.client.5.2.8.nupkg.sha512",

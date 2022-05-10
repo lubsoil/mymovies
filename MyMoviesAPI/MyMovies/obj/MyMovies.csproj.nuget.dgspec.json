@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emil0\\source\\repos\\MyMoviesAPI\\MyMovies\\MyMovies.csproj": {}
+    "C:\\Users\\emil0\\Documents\\GitHub\\mymovies\\MyMoviesAPI\\MyMovies\\MyMovies.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emil0\\source\\repos\\MyMoviesAPI\\MyMovies\\MyMovies.csproj": {
+    "C:\\Users\\emil0\\Documents\\GitHub\\mymovies\\MyMoviesAPI\\MyMovies\\MyMovies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emil0\\source\\repos\\MyMoviesAPI\\MyMovies\\MyMovies.csproj",
+        "projectUniqueName": "C:\\Users\\emil0\\Documents\\GitHub\\mymovies\\MyMoviesAPI\\MyMovies\\MyMovies.csproj",
         "projectName": "MyMovies",
-        "projectPath": "C:\\Users\\emil0\\source\\repos\\MyMoviesAPI\\MyMovies\\MyMovies.csproj",
+        "projectPath": "C:\\Users\\emil0\\Documents\\GitHub\\mymovies\\MyMoviesAPI\\MyMovies\\MyMovies.csproj",
         "packagesPath": "C:\\Users\\emil0\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emil0\\source\\repos\\MyMoviesAPI\\MyMovies\\obj\\",
+        "outputPath": "C:\\Users\\emil0\\Documents\\GitHub\\mymovies\\MyMoviesAPI\\MyMovies\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
