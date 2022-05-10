@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.EntityFrameworkCore;
 using MyMovies.Models;
 
@@ -11,6 +12,7 @@ namespace MyMovies.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("AllowOrigin")]
     public class MovieItemsController : ControllerBase
     {
         private readonly MovieContext _context;
@@ -21,6 +23,7 @@ namespace MyMovies.Controllers
         }
 
         // GET: api/MovieItems
+        // Showing all values from Database
         [HttpGet]
         public async Task<ActionResult<IEnumerable<MovieItem>>> GetMovieItems()
         {
@@ -28,6 +31,7 @@ namespace MyMovies.Controllers
         }
 
         // GET: api/MovieItems/5
+        // Showing existing value from Database
         [HttpGet("{id}")]
         public async Task<ActionResult<MovieItem>> GetMovieItem(long id)
         {
@@ -42,8 +46,7 @@ namespace MyMovies.Controllers
         }
 
         // PUT: api/MovieItems/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        // Editing existing value from Database
         [HttpPut("{id}")]
         public async Task<IActionResult> PutMovieItem(long id, MovieItem movieItem)
         {
@@ -74,8 +77,7 @@ namespace MyMovies.Controllers
         }
 
         // POST: api/MovieItems
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        // Adding new Movie Value to Database
         [HttpPost]
         public async Task<ActionResult<MovieItem>> PostMovieItem(MovieItem movieItem)
         {

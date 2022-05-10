@@ -120,3 +120,6 @@ MyMoviesAPI/MyMovies/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSha
 MyMoviesAPI/MyMovies/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
 MyMoviesAPI/MyMovies/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll
 MyMoviesAPI/MyMovies/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+MyMoviesAPI/MyMovies/Migrations/20220509173145_InitialCreate.cs
+MyMoviesAPI/MyMovies/Migrations/20220509173145_InitialCreate.Designer.cs
+MyMoviesAPI/MyMovies/Migrations/MovieContextModelSnapshot.cs
