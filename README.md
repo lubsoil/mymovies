@@ -11,3 +11,4 @@ created by Emil Andrzejak
     * Enter "Update-Database" to create Table.
 5. Launch MyMovies with MyMovies configuration
 6. Launch vue project with command "npm run serve" in "webclient" directory.
+7. Website is available on localhost:5000
